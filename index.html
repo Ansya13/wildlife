@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="css/style.css" />
+        <title>wildlife</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="main container__header">
+                <header class="header container__fixed container__flex">
+                    <div class="container__flex">
+                        <img
+                            src="css/images/logo.png"
+                            alt="logo"
+                            class="logo header__logo"
+                        />
+                        <h1 class="title title_logo header__title">wildlife</h1>
+                    </div>
+                    <nav class="container__flex">
+                        <ul class="menu header__menu container__flex">
+                            <li class="menu__item">
+                                <a href="#" class="menu__link">Blog</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#" class="menu__link"> Contacts</a>
+                            </li>
+                            <li class="menu__item menu__item_search">
+                                <a href="#" class="menu__link"
+                                    ><img
+                                        src="css/images/search.png"
+                                        alt="search-button"
+                                        class="menu__link_search"
+                                /></a>
+                            </li>
+                        </ul>
+
+                        <button
+                            type="button"
+                            class="btn default_header btn_header header__btn"
+                        >
+                            Sign in
+                        </button>
+                    </nav>
+                </header>
+                <main class="survival main__survival container__fixed">
+                    <h2 class="title title_survival survival__title">
+                        Survival
+                    </h2>
+                    <p class="text text_survival survival__text">
+                        What this means is that we exist to help protect our
+                        environment and do in numbers of ways. You can save the
+                        planet by donation.
+                    </p>
+                    <button
+                        type="button"
+                        class="btn btn_survival default_survival survival__btn"
+                    >
+                        Donate
+                    </button>
+                </main>
+            </div>
+            <section class="latest-articles">
+                <div class="container__fixed">
+                    <h2
+                        class="title title_latest-articles latest-articles__title"
+                    >
+                        Latest articles
+                    </h2>
+                    <p class="text text_latest-articles latest-articles__text">
+                        Breaking news from the wild
+                    </p>
+                    <div
+                        class="slider latest-articles__slider container__flex"
+                        id="slider"
+                    >
+                        <a
+                            href="#"
+                            class="slider__btn btn-arrow"
+                            data-step="-1"
+                        >
+                            <img
+                                src="css/images/chevron-left-solid.svg"
+                                alt="btn-arrow_previous"
+                                class="btn-arrow btn-arrow_prev"
+                            />
+                        </a>
+                        <ul class="slider__slides slides container__flex">
+                            <li class="slides__slide slides__slide_deer">
+                                <h4 class="text text_slider slider__text">
+                                    Deer
+                                </h4>
+                                <p class="text text_slider-s slider__title">
+                                    Naturalist investigation
+                                </p>
+                            </li>
+                            <li class="slides__slide slides__slide_squirrel">
+                                <h4 class="text text_slider slider__text">
+                                    Squirrel
+                                </h4>
+                                <p class="text text_slider-s slider__title">
+                                    Kamikaze squirrels
+                                </p>
+                            </li>
+                            <li class="slides__slide slides__slide_bird">
+                                <h4 class="text text_slider slider__text">
+                                    Bird
+                                </h4>
+                                <p class="text text_slider-s slider__title">
+                                    Birds Fight club
+                                </p>
+                            </li>
+                        </ul>
+                        <a href="#" class="slider__btn btn-arrow" data-step="1">
+                            <img
+                                src="css/images/chevron-right-solid.svg"
+                                alt="button-next"
+                                class="btn-arrow_next"
+                            />
+                        </a>
+                    </div>
+                    <div class="get-notified latest-articles__get-notified">
+                        <h3
+                            class="title title_get-notified get-notified__title"
+                        >
+                            Get notified about new amazing articles
+                        </h3>
+                        <form action="#" method="#" class="get-notified__form">
+                            <input
+                                type="text"
+                                size="30"
+                                name="browser"
+                                value=""
+                                placeholder="Email"
+                                class="text-input get-notified__text-input"
+                            />
+                            <button
+                                type="submit"
+                                class="btn btn_get-notified default_get-notified get-notified__btn"
+                            >
+                                Send
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+            <footer class="footer container__sosial">
+                <div class="container__fixed container__flex">
+                    <div class="container__flex">
+                        <img
+                            src="css/images/logo.png"
+                            alt="logo"
+                            class="logo footer__logo"
+                        />
+                        <p class="title title_logo footer__title">wildlife</p>
+                    </div>
+                    <nav class="menu footer__menu">
+                        <ul class="container__flex">
+                            <li class="menu__item">
+                                <a href="#" class="menu__link">Articles</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#" class="menu__link">About us</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#" class="menu__link">Learn more</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="container__flex">
+                        <ul class="socials footer__socials container__flex">
+                            <li class="social__item">
+                                <a
+                                    href="#"
+                                    class="social__link social__link_fb"
+                                ></a>
+                            </li>
+                            <li class="social__item">
+                                <a
+                                    href="#"
+                                    class="social__link social__link_insta"
+                                ></a>
+                            </li>
+                            <li class="social__item">
+                                <a
+                                    href="#"
+                                    class="social__link social__link_p"
+                                ></a>
+                            </li>
+                            <li class="social__item">
+                                <a
+                                    href="#"
+                                    class="social__link social__link_telegram"
+                                ></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>
