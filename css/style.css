@@ -62,13 +62,12 @@ body {
 .menu__link {
     text-decoration: none;
     color: #f7f7f7;
-    cursor: pointer;
+    cursor: default;
 }
 .menu__link:hover,
 .menu__link_search:hover,
-.slider__btn:hover,
-.text-input:hover,
-.social__link:hover {
+.btn-arrow:hover,
+.text-input:hover {
     opacity: 0.5;
 }
 
@@ -76,7 +75,7 @@ body {
     height: 32px;
     width: 100%;
     margin-top: 14px;
-    cursor: pointer;
+    cursor: default;
 }
 
 .btn {
@@ -98,7 +97,7 @@ body {
 }
 .btn_header:hover {
     background: #cd6326;
-    cursor: pointer;
+    cursor: default;
 }
 .title_survival {
     color: #cd6326;
@@ -131,7 +130,7 @@ body {
 }
 .btn_survival:hover,
 .btn_get-notified:hover {
-    cursor: pointer;
+    cursor: default;
     background: #e39128;
     border-color: #e39128;
 }
@@ -301,8 +300,11 @@ body {
     position: absolute;
     width: 40px;
     height: 40px;
-    cursor: pointer;
 }
+.social__link:hover {
+    cursor: default;
+}
+
 .social__item:first-child {
     margin-left: 0;
 }
@@ -310,14 +312,38 @@ body {
 .social__link_fb {
     background-image: url(./images/fb.svg);
 }
+.social__link_fb:hover {
+    background-image: url(./images/fb_hover.svg);
+}
+.social__link_fb:active {
+    background-image: url(./images/fb_active.svg);
+}
 .social__link_insta {
     background-image: url(./images/insta.svg);
+}
+.social__link_insta:hover {
+    background-image: url(./images/insta_hover.svg);
+}
+.social__link_insta:active {
+    background-image: url(./images/insta_active.svg);
 }
 .social__link_p {
     background-image: url(./images/p.svg);
 }
+.social__link_p:hover {
+    background-image: url(./images/p_hover.svg);
+}
+.social__link_p:active {
+    background-image: url(./images/p_active.svg);
+}
 .social__link_telegram {
     background-image: url(./images/telegram.svg);
+}
+.social__link_telegram:hover {
+    background-image: url(./images/telegram_hover.svg);
+}
+.social__link_telegram:active {
+    background-image: url(./images/telegram_active.svg);
 }
 @media screen and (max-width: calc(1300px)) {
     .container__fixed {
