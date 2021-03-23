@@ -31,6 +31,7 @@ body {
 .logo {
     width: 100%;
     height: 60px;
+    cursor: default;
 }
 .header__logo {
     margin: 20px 0px 0 0px;
@@ -47,6 +48,7 @@ body {
     margin: 20px 0 0 15px;
     text-transform: uppercase;
     text-align: left;
+    cursor: default;
 }
 .menu {
     margin-top: 20px;
@@ -64,6 +66,8 @@ body {
     color: #f7f7f7;
     cursor: default;
 }
+.logo:hover,
+.title_logo:hover,
 .menu__link:hover,
 .menu__link_search:hover,
 .btn-arrow:hover,
