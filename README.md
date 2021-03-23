@@ -3,7 +3,7 @@
 2. Screenshot:
 ![x](https://github.com/rolling-scopes-school/ansya13-JSFE2021Q1/blob/wildlife/wildlife/css/images/WildLife.png?raw=true)
 
-3. Deploy:https://rolling-scopes-school.github.io/ansya13/wildlife
+3. Deploy:https://ansya13.github.io/wildlife/
 4. Done 09.03.2021 / deadline 15.03.2021
 5. Score: 50 / 50
 
